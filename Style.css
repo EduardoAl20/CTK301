@@ -1,0 +1,42 @@
+h1{
+ color:red;
+ background-color: black;
+}
+#Bluetime{
+    color:blue;
+}
+.GreenApple{
+    color:green;
+}
+.Changenow{
+    color:orange;
+    background-color: grey;
+}
+#themclasses{
+    color:orchid;
+}
+#wow{
+    background-color: orchid;
+}
+.emphasizes{
+    color:firebrick;
+}
+#thisfun{
+    color:goldenrod;
+    background-color: aquamarine;
+}
+.info{
+    color:purple;
+    background-color: rgb(189, 177, 159);
+}
+
+a:visited{
+    color:green;
+}
+a:link{
+    color:red;
+}
+a:hover{
+    color:yellow;
+}
+    
