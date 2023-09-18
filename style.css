@@ -1,0 +1,40 @@
+a:link{
+color:green;
+text-underline-position: unset;
+}
+a:hover{
+    color:red;
+    text-underline-position: below;
+}
+.turnwhite{
+    color:white;
+}
+main{
+    background-color: #99aaff;
+}
+.bluetime{
+    color:blue;
+}
+.yellow{
+    background-color:yellow;
+}
+.gold{
+    color:gold;
+}
+.papa{
+    color:yellow ;
+    background-color: green;
+}
+#doctor{
+    color:red;
+}
+.rojo{
+   color:red; 
+}
+.artisgood{
+    background-color: greenyellow;
+}
+.background{
+    background-color: yellow;
+}
+
