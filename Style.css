@@ -1,42 +1,33 @@
-h1{
- color:red;
- background-color: black;
+body{
+    font-family: Helvetica, Arial;
+    background-color:bisque;
+    background-image: url(backround.jpg);
+    color:aliceblue;
 }
-#Bluetime{
-    color:blue;
-}
-.GreenApple{
-    color:green;
-}
-.Changenow{
-    color:orange;
-    background-color: grey;
-}
-#themclasses{
-    color:orchid;
-}
-#wow{
-    background-color: orchid;
+.center{
+    text-align: center;
 }
 .emphasizes{
-    color:firebrick;
+    text-align: center;
 }
-#thisfun{
-    color:goldenrod;
-    background-color: aquamarine;
+#themclasses{
+    text-align: center;
 }
 .info{
-    color:purple;
-    background-color: rgb(189, 177, 159);
+    text-align: center;
+    text-align: justify;
+}
+#wow{
+    text-align: center;
+}
+h1, h2, h3{
+color: orange;
+font-style: italic;
+font-weight: normal;
+}
+.pics{
+    border: 15px solid black;
+    background-color: yellow;
+    padding: 10px;
 }
 
-a:visited{
-    color:green;
-}
-a:link{
-    color:red;
-}
-a:hover{
-    color:yellow;
-}
-    
