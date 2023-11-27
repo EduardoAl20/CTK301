@@ -1,0 +1,149 @@
+body {
+  background-color: #999999;
+  background-image: url(preview16.jpg);
+  font-family: Merriweather;
+}
+h1{
+  font-weight: bold;
+  border: 5px solid black;
+  background: rgb(243,97,132);
+background: radial-gradient(circle, rgba(243,97,132,1) 0%, rgba(253,29,29,1) 50%, rgba(162,63,46,1) 100%);
+  color:white;
+  padding: 5px;
+  width: 1200px;
+  font-size: 40px;
+  text-align: center;
+  border-radius: 30px;
+  
+}
+h2{
+  border-bottom: 3px solid black;
+  font-size: 25px;
+  text-align: center;
+  
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 1px solid black;
+  padding: 24px;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+}
+.pic{
+  border: 5px solid black;
+  width: 260px;
+  border-radius: 30px;
+}
+nav ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+nav li{
+  background: rgb(243,97,132);
+background: radial-gradient(circle, rgba(243,97,132,1) 0%, rgba(253,29,29,1) 50%, rgba(162,63,46,1) 100%);
+  border: 3px solid black;
+  width: 250px;
+  display: inline-block;
+  margin-bottom: 15px;
+  font-size: 20px;
+  border-radius: 30px;
+}
+nav li a{
+  text-decoration: none;
+  display: block;
+  padding: 15px;
+  color: white;
+  
+}
+ a:link{
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+nav li a:hover{
+ background-color: darkred;
+color: whitesmoke;
+border-radius: 30px;
+}
+
+
+
+header{
+grid-column: span 12;
+
+
+}
+main{
+  background: rgb(243,97,132);
+  background: radial-gradient(circle, rgba(243,97,132,1) 0%, rgba(253,29,29,1) 50%, rgba(162,63,46,1) 100%);
+  color: white;
+  padding: 10px;
+  border: 5px solid black;
+  grid-column: span 6;
+  border-radius: 50px;
+  
+  
+}
+
+
+aside{
+  grid-column: span 3;
+
+}
+nav{
+  grid-column: span 3;
+}
+aside ul{
+  list-style-type: none;
+
+}
+aside ul li{
+  background: rgb(243,97,132);
+  background: radial-gradient(circle, rgba(243,97,132,1) 0%, rgba(253,29,29,1) 50%, rgba(162,63,46,1) 100%);
+    border: 3px solid black;
+    width: 100px;
+    display: inline-block;
+    margin-bottom: 15px;
+    font-size: 25px;
+    border-radius: 30px;
+}
+aside ul li a{
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  color: white;
+}
+aside ul li a:hover{
+background-color: darkred;
+color: whitesmoke;
+border-radius: 30px;
+}
+.dropshadowbox {
+  padding: 10px;
+  margin: 20px;
+  width: 250px;
+  border: 1px solid #999;
+  background-color: #9a2525;
+  box-shadow: 10px 10px 10px #999; /* x, y, blur, color */
+}
+
+.band{
+  width: 300px;
+  border: 5px solid black;
+}
+
+#myCarousel {
+  margin-bottom: 24px;
+  
+}
+.subp{
+  padding:1px;
+  width: 500px;
+  margin-left: 30px;
+  height: 500px;
+}
